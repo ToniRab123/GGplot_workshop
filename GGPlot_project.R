@@ -13,3 +13,9 @@ iris >%>
   skimr::skim()
 iris >%>
   skimr::skim()
+mean(sepal.length)
+#Data Structure (tidyverse) 
+iris %>%
+  skimr::skim()
+#Data Cleaning
+####tidyverse 

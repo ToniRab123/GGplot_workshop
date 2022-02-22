@@ -19,3 +19,16 @@ iris %>%
   skimr::skim()
 #Data Cleaning
 ####tidyverse 
+set.seed(100)
+iris_clean <- iris %>% 
+  mutate(Trial = sample(3, n(), replace = TRUE))
+set.seed(100)
+iris_clean <- iris %>% 
+  mutate(Trial = sample(3, n(), replace = TRUE))
+set.seed(100)
+iris_clean <- iris %>%
+  mutate(Trial = sample (3),n(), replace = TRUE) 
+find.package("magrittr")
+set.seed(100)
+iris_clean <- iris %>%
+  mutate(Trial = sample (3),n(), replace = TRUE) 
